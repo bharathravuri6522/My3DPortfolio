@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
 
-  "homepage": "https://bharathravuri6522.github.io",
+  "homepage": "https://bharathravuri6522.github.io/My3DPortfolio/",
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist",
