@@ -3,6 +3,8 @@ import {motion} from 'framer-motion';
 import {styles} from '../styles'
 import { ComputersCanvas } from './canvas';
 
+// <br className='sm:block hidden'/>
+
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -13,17 +15,18 @@ const Hero = () => {
         <div className='w-1 sm:h-80 h-40 violet-gradient' />
        </div>
        <div>
-        <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm 
-        <span className='text-[#915eff]'> 
-        Parthasarathi</span></h1>
-        <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I am FPGA design engineer, I create FPGA-based systems <br className='sm:block hidden'/>
-          for high performance and custom hardware solutions.
-        </p>
+          <h1 className={`${styles.heroHeadText} text-white`} >
+             <span className='block sm:inline'>Hi, I'm {''}</span>
+             <span className='block sm:inline text-[#915eff]'>Bharath Ravuri</span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 flex flex-wrap justify-content`}>
+             I am a Full Stack Developer. I specialize in designing and building comprehensive web applications,
+             seamlessly integrating intuitive front-end interfaces with robust back-end systems to create efficient 
+             and user-friendly digital solutions.
+          </p>
        </div>
-       
       </div>
-      
+    
         <ComputersCanvas />
       
       <div className='relative z-10 xs:bottom-10 bottom-32 w-full flex justify-center items-center'>

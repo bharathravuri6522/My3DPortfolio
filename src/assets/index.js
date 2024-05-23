@@ -8,27 +8,27 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import bootstrap from "./tech/bootstrap.png";
+import Node from "./tech/Node.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import postgres from "./tech/postgres.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import Cognizant from "./company/Cognizant.png";
+import TekSolvent from "./company/TekSolvent.png";
+import UL_Lafayette from "./company/UL_Lafayette.png";
+// import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Insightify from "./Insightify.png";
+import Tek_Solvent from "./Tek_Solvent.png";
+import Portfolio from "./Portfolio.png";
 
 export {
   logo,
@@ -40,23 +40,22 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  postgres,
+  bootstrap,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  Node,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  Cognizant,
+  TekSolvent,
+  UL_Lafayette,
+  Insightify,
+  Tek_Solvent,
+  Portfolio,
 };

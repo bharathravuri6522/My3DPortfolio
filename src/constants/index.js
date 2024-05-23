@@ -8,20 +8,19 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    bootstrap,
+    Node,
+    postgres,
+    Cognizant,
+    TekSolvent,
+    UL_Lafayette,
+    Insightify,
+    Tek_Solvent,
+    Portfolio,
     threejs,
   } from "../assets";
   
@@ -81,8 +80,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Node Js",
+      icon: Node,
     },
     {
       name: "Tailwind CSS",
@@ -105,68 +104,58 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "postgres",
+      icon: postgres,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Full Stack Developer",
+      company_name: "Cognizant",
+      icon: Cognizant,
+      iconBg: "#FFFFFF",
+      date: "Aug 2019 - Dec 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded critical web application development for a UK-based pharmaceutical client using React and Node.js.",
+        "Resolved complex technical issues through in-depth code analysis and efficient debugging practices.",
+        "Transitioned an existing application to React, enhancing performance and user experience.",
+        "Employed agile methodologies for effective project lifecycle management, ensuring smooth production deployment.",
+        "Engaged in cross-functional collaboration, demonstrating strong communication and pair-programming skills."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Freelance Back-end Developer",
+      company_name: "Tek Solvent",
+      icon: TekSolvent,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Mar 2023 - Mar 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed decentralized applications for the Bitsz platform using Java, enhancing user experience.",
+        "Designed and implemented GraphQL APIs for efficient data exchange between front-end and back-end systems.",
+        "Leveraged Node.js, Express.js, and TypeScript to build robust server-side components.",
+        "Ensured compliance with industry standards and security protocols in application development.",
+        "Integrated web services and APIs into backend systems, demonstrating cloud technology proficiency.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Graduate Teaching Assistant",
+      company_name: "University of Louisiana at Lafayette",
+      icon: UL_Lafayette,
+      iconBg: "#FFFFFF",
+      date: "Aug 2023 - May 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Assisted undergraduate students in the Operating Systems in Java course.",
+        "Guided students on project implementations involving concurrency and multithreading.",
+        "Provided support in understanding memory allocation, page replacements, and scheduling algorithms.",
+        "Offered one-on-one assistance to students, clarifying complex concepts and solving doubts."
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -198,7 +187,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Insightify",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -207,19 +196,24 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "node",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "postgres",
           color: "pink-text-gradient",
         },
+        {
+          name: "OpenAI API",
+          color: "orange-text-gradient",
+        },
+
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Insightify,
+      source_code_link: "https://github.com/bharathravuri6522/Insightify",
     },
     {
-      name: "Job IT",
+      name: "Tek Solvent",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -228,37 +222,42 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "node",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
+        {
+          name: "JavaScript",
+          color: "orange-text-gradient",
+        },
+
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: Tek_Solvent,
+      source_code_link: "https://www.teksolvent.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Portfolio",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: Portfolio,
+      source_code_link: "https://bharathravuri6522.github.io/",
     },
   ];
   

@@ -51,22 +51,25 @@ const About = () => {
       className='nt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]'>
       {/* (direction,type,delay,duration of animation) */}
-      Passionate FPGA Design Engineer with a knack for optimizing
-       complex systems. Proficient in VHDL and Verilog, I have a 
-       proven track record in designing and implementing digital 
-       logic systems. My work revolves around creating efficient, 
-       high-performance designs that meet the demanding needs of 
-       today’s technological landscape. Committed to innovation 
-       and excellence in the field of FPGA design.
+      As a Full Stack Developer with over 4 years of experience,
+       I specialize in designing and building comprehensive web 
+       applications. My expertise includes creating dynamic and 
+       responsive front-end interfaces using React, Angular, HTML,
+        CSS, and JavaScript, as well as developing robust back-end
+         systems with Node.js, Express.js, and Java. I am proficient 
+         in managing databases such as MySQL, PostgreSQL, and MongoDB.
+          Passionate about optimizing development workflows through 
+          CI/CD practices, I ensure efficient, high-quality software
+           delivery that meets user needs and business objectives.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service,index)=>(
         <ServiceCard key={service.title} 
         index={index} {...service}
         />
       ))}
 
-      </div>
+      </div> */}
     </>
   )
 }
