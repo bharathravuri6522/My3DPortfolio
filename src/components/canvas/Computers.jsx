@@ -1,6 +1,6 @@
-import React, { Suspense, useEffect, useState} from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF} from "@react-three/drei";
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
@@ -21,31 +21,12 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.4 : 0.7}
-        position={getComputerPosition()}
+        scale={isMobile ? 0.4 : 0.75}
+        position={isMobile ? [-1, -3, -1] : [0, -4.5, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
   );
-};
-
-const getComputerPosition = () => {
-  const width = window.innerWidth;
-  console.log(width);
-
-  if (width <= 380) {
-    // iPhone SE and similar devices
-    return [-0.5, -3, -1.5];
-  } else if(width >380 & width <=475){
-    return [0,-1,-1.5]
-  }
-  else if (width >475 & width < 1000) {
-    // iPhone 14 Pro Max and similar devices
-    return [0, -2.25, -1.5];
-  } else {
-    // Larger devices (e.g., desktop)
-    return [0, -4.5, -1.5];
-  }
 };
 
 const ComputersCanvas = () => {
