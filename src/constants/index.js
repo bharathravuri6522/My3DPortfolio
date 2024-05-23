@@ -188,8 +188,7 @@ import {
   const projects = [
     {
       name: "Insightify",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      description: "This webpage has been build using React and Node with Express and I have also accessed OpenAI API to convert user reviews into insightful data of a given format. Technology Stack used for this project Postgres, Express, React, Node.",
       tags: [
         {
           name: "react",
@@ -214,8 +213,7 @@ import {
     },
     {
       name: "Tek Solvent",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      description: "This website has been build using React and Node with Express. I have built Tek Solvent team to build website and also collaborated with the development to design SaaS product for Human Resource Management System.",
       tags: [
         {
           name: "react",
@@ -240,8 +238,7 @@ import {
     },
     {
       name: "Portfolio",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      description: "This webpage has been built using HTML, CSS and JavaScript, this has been built to showcase my skills and knowledge in the HTML and CSS. I have also used provided the source code for this project in my github repository.",
       tags: [
         {
           name: "HTML",

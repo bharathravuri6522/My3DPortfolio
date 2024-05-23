@@ -31,7 +31,7 @@ const handleSubmit = (e) => {
                'template_6suocbq',
                {
                 from_name: form.name,
-                to_name :'ParthaSarathi',
+                to_name :'Bharath Ravuri',
                 from_email: form.email,
                 to_email: 'bharathnaidu652@gmail.com',
                 message: form.message,
