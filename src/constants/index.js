@@ -135,7 +135,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Mar 2023 - Mar 2024",
       points: [
-        "Developed decentralized applications for the Bitsz platform using Java, enhancing user experience.",
+        "Developed web applications for the Tek Solvent platform using Java, enhancing user experience.",
         "Designed and implemented GraphQL APIs for efficient data exchange between front-end and back-end systems.",
         "Leveraged Node.js, Express.js, and TypeScript to build robust server-side components.",
         "Ensured compliance with industry standards and security protocols in application development.",
